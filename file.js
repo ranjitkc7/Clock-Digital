@@ -42,7 +42,7 @@ const reStartBtn = () => {
 
 const getTimeBtn = () => {
    const newPar = document.createElement("p");
-   newPar.innerText = `"The time is ${setTime} sec."`;
+   newPar.innerText = `"The time is ${setTime - 1C} sec."`;
    contShow.appendChild(newPar);
 };
 
